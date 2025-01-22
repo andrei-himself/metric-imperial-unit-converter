@@ -16,11 +16,11 @@ convertBtn.addEventListener("click", function () {
     `
     volumeResults.innerHTML = `
         ${inputValue} liters = ${Math.round(0.264 * inputValue * 1000) / 1000} gallons | 
-        ${inputValue} gallons = ${Math.round(3.78541 * inputValue * 1000) / 1000}
+        ${inputValue} gallons = ${Math.round(3.78541 * inputValue * 1000) / 1000} liters
     `
     massResults.innerHTML = `
-        ${inputValue} pounds = ${Math.round(2.204 * inputValue * 1000) / 1000} pounds | 
-        ${inputValue} pounds = ${Math.round(0.453592 * inputValue * 1000) / 1000}
+        ${inputValue} kilograms = ${Math.round(2.204 * inputValue * 1000) / 1000} pounds | 
+        ${inputValue} pounds = ${Math.round(0.453592 * inputValue * 1000) / 1000} kilograms
     `
 })
 
